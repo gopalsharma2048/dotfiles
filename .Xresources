@@ -1,0 +1,71 @@
+*fading:                          15
+*fadeColor:                       black
+*pointerColorBackground:          #2B2C2B
+*pointerColorForeground:          #16A085
+
+! disable urxvts ugly scrollbar
+*scrollBar: false
+
+*.foreground: #ccb18b
+*.cursorcolor:#ccb18b
+*.colorbd:    #6699cc
+*.colorul:    #ccb18b
+*.colorit:    #ccb18b
+*background:  #222222
+*color0:      #282828
+*color1:      #cc6666
+*color2:      #66aa66
+*color3:      #f0c674
+*color4:      #557799
+*color5:      #a374a8
+*color6:      #339999
+*color7:      #a3a3a3
+*color8:      #4d4d4d
+*color9:      #dd7777
+*color10:     #77bb77
+*color11:     #f2d785
+*color12:     #5588bb
+*color13:     #b485b9
+*color14:     #2fa7a7
+*color15:     #cccccc
+
+! Black color that will not be affected by bold highlighting.
+*.color66: #30353A
+*color66:  #30353A
+
+
+URxvt.internalBorder:		  15
+!URxvt.font:			  xft:monofur:size=12
+!URxvt.font: xft:Iosevka Term:pixelsize=14
+URxvt*font:            xft:Fantasque Sans Mono:size=14
+!URxvt.font: xft:SourceCodePro-Medium:pixelsize=14
+URxvt.geometry:		          75x20
+URxvt.depth:                      32
+URxvt.background:	[100]#3A3A3A
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*background:                 #222222
+URxvt*foreground: 		  #c9c1c7
+URxvt*cursorColor:		  #c9c1c7
+URxvt*saveLines:                  5000
+URxvt.transparent:   		  true
+URxvt.shading:       		  100
+! ROFI SETUP HERE !
+
+rofi.color-window: #3A3A3A, #3A3A3A, #466b6d
+rofi.color-normal: #3A3A3A, #466b6d, #3A3A3A, #618789, #3A3A3A
+rofi.color-active: #3A3A3A, #466b6d, #3A3A3A, #618789, #3A3A3A
+rofi.color-urgent: #3A3A3A, #3c5f5f, #3A3A3A, #3c5f5f, #c9c1c7
+
+rofi.separator-style: dash
+!rofi.sidebar-mode: true
+rofi.width : 45
+rofi.lines: 6
+rofi.font: Iosevka Term 12
+!rofi.font:Iosevka Term Bold 12
+rofi.bw: 1
+rofi.columns: 1
+rofi.padding: 5
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true
